@@ -1,0 +1,354 @@
+{
+  "pengetahuan": [
+    {
+      "id": 1,
+      "kategori": "dada",
+      "keywords": ["dada", "chest", "pectoral", "pecs"],
+      "latihan": [
+        { "nama": "Push Up", "deskripsi": "Latihan dasar bodyweight untuk melatih otot dada, bahu, dan trisep.", "target_otot": "Pectoralis Major, Tricep, Anterior Deltoid", "set": 3, "repetisi": "12-15", "level": "Pemula", "tips": "Jaga tubuh lurus seperti papan, jangan biarkan pinggang turun." },
+        { "nama": "Bench Press", "deskripsi": "Latihan utama dada menggunakan barbell di atas bangku. Paling efektif untuk membangun massa dada.", "target_otot": "Pectoralis Major, Tricep, Anterior Deltoid", "set": 4, "repetisi": "8-10", "level": "Menengah", "tips": "Tarik napas saat menurunkan bar, hembuskan saat mendorong. Gunakan spotter untuk keamanan." },
+        { "nama": "Dumbbell Fly", "deskripsi": "Latihan isolasi dada dengan gerakan membuka dan menutup lengan seperti kepakan sayap.", "target_otot": "Pectoralis Major, Anterior Deltoid", "set": 3, "repetisi": "12", "level": "Menengah", "tips": "Jaga siku sedikit ditekuk sepanjang gerakan untuk melindungi sendi." },
+        { "nama": "Incline Bench Press", "deskripsi": "Bench press dengan bangku miring 30-45 derajat, fokus pada bagian atas dada.", "target_otot": "Upper Pectoralis, Anterior Deltoid", "set": 3, "repetisi": "10", "level": "Menengah", "tips": "Sudut bangku 30-45 derajat adalah ideal untuk upper chest." }
+      ]
+    },
+    {
+      "id": 2,
+      "kategori": "punggung",
+      "keywords": ["punggung", "back", "belakang", "lat", "rhomboid"],
+      "latihan": [
+        { "nama": "Pull Up", "deskripsi": "Latihan bodyweight terbaik untuk punggung. Tarik tubuh ke atas hingga dagu melewati palang.", "target_otot": "Latissimus Dorsi, Rhomboids, Bicep", "set": 3, "repetisi": "5-10", "level": "Menengah", "tips": "Fokus menarik siku ke bawah, bukan hanya menarik tangan." },
+        { "nama": "Bent Over Row", "deskripsi": "Tubuh membungkuk 45 derajat, tarik barbell/dumbbell ke arah perut.", "target_otot": "Latissimus Dorsi, Rhomboids, Trapezius", "set": 4, "repetisi": "10-12", "level": "Menengah", "tips": "Jaga punggung tetap lurus dan netral." },
+        { "nama": "Lat Pulldown", "deskripsi": "Latihan mesin menarik bar dari atas ke bawah. Cocok untuk pemula yang belum bisa pull up.", "target_otot": "Latissimus Dorsi, Bicep", "set": 3, "repetisi": "12", "level": "Pemula", "tips": "Tarik ke dada bagian atas, bukan ke belakang kepala." },
+        { "nama": "Deadlift", "deskripsi": "Latihan compound terkuat melatih seluruh punggung, paha, dan tubuh.", "target_otot": "Erector Spinae, Latissimus Dorsi, Hamstring, Glutes", "set": 4, "repetisi": "5-6", "level": "Lanjutan", "tips": "Teknik sangat penting! Punggung selalu lurus, angkat dengan kaki bukan punggung." }
+      ]
+    },
+    {
+      "id": 3,
+      "kategori": "kaki",
+      "keywords": ["kaki", "leg", "paha", "betis", "squat", "quadricep", "hamstring"],
+      "latihan": [
+        { "nama": "Squat", "deskripsi": "Raja dari semua latihan kaki. Turunkan tubuh hingga paha sejajar lantai.", "target_otot": "Quadriceps, Hamstrings, Glutes, Core", "set": 4, "repetisi": "10-12", "level": "Pemula", "tips": "Lutut mengikuti arah jari kaki, tumit tidak boleh terangkat." },
+        { "nama": "Lunges", "deskripsi": "Langkah maju besar ke depan sambil menurunkan lutut belakang ke lantai.", "target_otot": "Quadriceps, Hamstrings, Glutes", "set": 3, "repetisi": "12 per kaki", "level": "Pemula", "tips": "Lutut depan tidak boleh melewati jari kaki." },
+        { "nama": "Leg Press", "deskripsi": "Latihan mesin untuk mendorong beban dengan kedua kaki, aman untuk pemula.", "target_otot": "Quadriceps, Hamstrings, Glutes", "set": 4, "repetisi": "12-15", "level": "Pemula", "tips": "Jangan kunci lutut saat ekstensi penuh." },
+        { "nama": "Calf Raise", "deskripsi": "Berdiri di ujung kaki, naik dan turun untuk melatih otot betis.", "target_otot": "Gastrocnemius, Soleus", "set": 3, "repetisi": "20-25", "level": "Pemula", "tips": "Bisa dilakukan di anak tangga untuk range of motion lebih besar." }
+      ]
+    },
+    {
+      "id": 4,
+      "kategori": "bahu",
+      "keywords": ["bahu", "shoulder", "deltoid", "pundak"],
+      "latihan": [
+        { "nama": "Overhead Press", "deskripsi": "Mendorong barbell atau dumbbell lurus ke atas dari posisi bahu.", "target_otot": "Deltoid (Anterior & Medial), Trapezius, Tricep", "set": 4, "repetisi": "8-10", "level": "Menengah", "tips": "Jaga core tetap kuat, hindari melengkungkan punggung bawah." },
+        { "nama": "Lateral Raise", "deskripsi": "Angkat dumbbell ke samping hingga sejajar bahu untuk melatih bahu tengah.", "target_otot": "Medial Deltoid", "set": 3, "repetisi": "15", "level": "Pemula", "tips": "Gunakan beban ringan. Jangan ayunkan tubuh." },
+        { "nama": "Front Raise", "deskripsi": "Angkat dumbbell ke depan hingga sejajar bahu.", "target_otot": "Anterior Deltoid", "set": 3, "repetisi": "12", "level": "Pemula", "tips": "Bisa dilakukan bergantian kiri-kanan." },
+        { "nama": "Arnold Press", "deskripsi": "Variasi overhead press dengan gerakan rotasi, melatih seluruh kepala deltoid.", "target_otot": "Deltoid (semua kepala), Trapezius", "set": 3, "repetisi": "10-12", "level": "Menengah", "tips": "Mulai dengan dumbbell di depan wajah, rotasi keluar sambil mendorong ke atas." }
+      ]
+    },
+    {
+      "id": 5,
+      "kategori": "lengan",
+      "keywords": ["lengan", "tangan", "arm", "bicep", "tricep", "bisep", "trisep"],
+      "latihan": [
+        { "nama": "Bicep Curl", "deskripsi": "Latihan klasik untuk bisep menggunakan dumbbell atau barbell.", "target_otot": "Biceps Brachii, Brachialis", "set": 3, "repetisi": "12-15", "level": "Pemula", "tips": "Jaga siku tetap di sisi tubuh, jangan ayunkan bahu." },
+        { "nama": "Hammer Curl", "deskripsi": "Curl dengan pegangan netral seperti memegang palu.", "target_otot": "Biceps, Brachialis, Brachioradialis", "set": 3, "repetisi": "12", "level": "Pemula", "tips": "Sangat bagus untuk forearm dan brachialis." },
+        { "nama": "Tricep Dips", "deskripsi": "Duduk di tepi bangku, turunkan tubuh dengan siku lalu dorong kembali.", "target_otot": "Triceps Brachii", "set": 3, "repetisi": "10-15", "level": "Pemula", "tips": "Semakin jauh kaki, semakin berat." },
+        { "nama": "Skull Crusher", "deskripsi": "Berbaring di bangku, turunkan barbell ke dahi dengan menekuk siku.", "target_otot": "Triceps Brachii (semua kepala)", "set": 3, "repetisi": "10-12", "level": "Menengah", "tips": "Jaga siku tetap menghadap langit-langit, hanya siku yang bergerak." }
+      ]
+    },
+    {
+      "id": 6,
+      "kategori": "cardio",
+      "keywords": ["cardio", "kardio", "lari", "aerobik", "jantung"],
+      "latihan": [
+        { "nama": "Jogging / Lari", "deskripsi": "Latihan kardio paling dasar. Lari tempo sedang 20-30 menit.", "target_otot": "Jantung, Paru-paru, Quadriceps", "set": 1, "repetisi": "20-30 menit", "level": "Pemula", "tips": "Mulai dengan jalan cepat, tingkatkan ke jogging bertahap." },
+        { "nama": "Jumping Jacks", "deskripsi": "Loncat sambil membuka kaki dan mengangkat tangan. Kardio mudah tanpa alat.", "target_otot": "Full Body, Jantung", "set": 3, "repetisi": "30-50", "level": "Pemula", "tips": "Bisa digunakan sebagai pemanasan atau sirkuit kardio ringan." },
+        { "nama": "Burpees", "deskripsi": "Kombinasi squat, push up, dan lompatan. Membakar banyak kalori.", "target_otot": "Full Body, Jantung", "set": 3, "repetisi": "10", "level": "Menengah", "tips": "Istirahat 60 detik antar set." },
+        { "nama": "Skipping / Jump Rope", "deskripsi": "Lompat tali 15-20 menit = jogging 30 menit dalam hal pembakaran kalori.", "target_otot": "Betis, Jantung, Koordinasi", "set": 3, "repetisi": "3 menit per set", "level": "Pemula", "tips": "Mulai dengan lompatan lambat, tingkatkan kecepatan bertahap." }
+      ]
+    },
+    {
+      "id": 7,
+      "kategori": "bulking",
+      "keywords": ["bulking", "bulk", "naik berat", "massa otot", "tambah berat", "besar", "gain"],
+      "penjelasan": "Bulking adalah fase menambah massa otot dengan mengonsumsi kalori lebih dari yang dibakar (surplus kalori).",
+      "panduan": [
+        "Konsumsi kalori 300-500 kkal di atas TDEE",
+        "Protein: 1.6-2.2 gram per kg berat badan per hari",
+        "Fokus compound movement: Squat, Deadlift, Bench Press, Row",
+        "Tidur 7-9 jam per hari untuk recovery optimal",
+        "Pantau kenaikan berat badan: ideal 0.5-1 kg per bulan",
+        "Tetap lakukan kardio ringan 1-2x seminggu untuk kesehatan jantung"
+      ],
+      "latihan_rekomendasi": [
+        {"nama": "Squat", "set": 5, "repetisi": "5", "catatan": "Beban berat, fokus kekuatan"},
+        {"nama": "Bench Press", "set": 5, "repetisi": "5", "catatan": "Progressive overload setiap minggu"},
+        {"nama": "Deadlift", "set": 4, "repetisi": "5", "catatan": "1x seminggu cukup"},
+        {"nama": "Overhead Press", "set": 4, "repetisi": "6", "catatan": "Naikkan beban tiap sesi jika bisa"}
+      ]
+    },
+    {
+      "id": 8,
+      "kategori": "cutting",
+      "keywords": ["cutting", "cut", "turun berat", "kurus", "lean", "perut rata"],
+      "penjelasan": "Cutting adalah fase membakar lemak sambil mempertahankan massa otot, dilakukan dengan defisit kalori.",
+      "panduan": [
+        "Konsumsi kalori 300-500 kkal di bawah TDEE",
+        "Tingkatkan protein: 2.0-2.5 gram per kg untuk cegah muscle loss",
+        "Pertahankan latihan beban untuk menjaga otot",
+        "Tambah kardio: 3-5x seminggu, 20-40 menit",
+        "Target penurunan: 0.5-1 kg per minggu adalah aman",
+        "Minum air minimal 3 liter per hari"
+      ],
+      "latihan_rekomendasi": [
+        {"nama": "LISS Cardio (Jogging)", "set": 1, "repetisi": "30-45 menit", "catatan": "3-5x per minggu"},
+        {"nama": "Circuit Training", "set": 4, "repetisi": "15-20 reps", "catatan": "Istirahat minimal untuk bakar kalori"},
+        {"nama": "HIIT", "set": 1, "repetisi": "20 menit", "catatan": "30 detik sprint / 30 detik istirahat"}
+      ]
+    },
+    {
+      "id": 9,
+      "kategori": "pemanasan",
+      "keywords": ["pemanasan", "warm up", "warmup", "stretching sebelum", "sebelum latihan"],
+      "penjelasan": "Pemanasan wajib dilakukan 10-15 menit sebelum latihan untuk mencegah cedera dan meningkatkan performa.",
+      "latihan": [
+        { "nama": "Arm Circle", "deskripsi": "Putar lengan ke depan dan belakang untuk memanaskan sendi bahu.", "target_otot": "Bahu, Rotator Cuff", "set": 1, "repetisi": "15 putaran tiap arah", "level": "Pemula", "tips": "Mulai dari lingkaran kecil, perbesar secara bertahap." },
+        { "nama": "Leg Swing", "deskripsi": "Ayunkan kaki ke depan-belakang untuk memanaskan sendi pinggul.", "target_otot": "Hip Flexor, Hamstring, Glutes", "set": 1, "repetisi": "20 per kaki", "level": "Pemula", "tips": "Pegang dinding untuk keseimbangan." },
+        { "nama": "High Knees", "deskripsi": "Angkat lutut setinggi mungkin sambil berlari di tempat.", "target_otot": "Hip Flexor, Core, Quadriceps", "set": 1, "repetisi": "30 detik", "level": "Pemula", "tips": "Seimbangkan dengan ayunan lengan yang berlawanan." },
+        { "nama": "World's Greatest Stretch", "deskripsi": "Gerakan kompleks yang meregangkan pinggul, dada, dan rotasi tulang belakang sekaligus.", "target_otot": "Full Body Mobility", "set": 1, "repetisi": "5 per sisi", "level": "Pemula", "tips": "Lakukan perlahan, tahan 2-3 detik di setiap posisi." }
+      ]
+    },
+    {
+      "id": 10,
+      "kategori": "jadwal",
+      "keywords": ["jadwal", "program", "schedule", "rencana", "seminggu", "plan", "rutinitas"],
+      "penjelasan": "Program latihan terstruktur penting agar progres konsisten dan menghindari overtraining.",
+      "program": {
+        "nama": "Program 3 Hari Pemula (Full Body)",
+        "deskripsi": "Cocok untuk pemula yang baru mulai gym, latihan 3x seminggu dengan istirahat di antaranya.",
+        "jadwal": [
+          { "hari": "Senin", "fokus": "Full Body A", "latihan": ["Squat 3x10", "Bench Press 3x10", "Bent Over Row 3x10", "Overhead Press 3x8", "Plank 3x30 detik"] },
+          { "hari": "Rabu", "fokus": "Full Body B", "latihan": ["Deadlift 3x5", "Incline Bench 3x10", "Lat Pulldown 3x10", "Lateral Raise 3x15", "Core Circuit"] },
+          { "hari": "Jumat", "fokus": "Full Body C", "latihan": ["Squat 3x10", "Dumbbell Fly 3x12", "Pull Up 3x5", "Arnold Press 3x10", "Bicep Curl 3x12"] }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "kategori": "pemula",
+      "keywords": ["pemula", "beginner", "baru", "mulai", "pertama", "awal", "newbie"],
+      "penjelasan": "Panduan lengkap untuk seseorang yang baru pertama kali mulai latihan gym.",
+      "tips": [
+        "Mulai dengan beban ringan dan fokus pada teknik yang benar",
+        "Latihan 3x seminggu sudah cukup untuk pemula",
+        "Selalu lakukan pemanasan 10-15 menit sebelum latihan",
+        "Istirahat cukup: otot tumbuh saat istirahat, bukan saat latihan",
+        "Makan protein cukup: telur, dada ayam, tahu, tempe, susu",
+        "Catat progress: berat badan, beban yang digunakan, repetisi",
+        "Konsistensi lebih penting dari intensitas"
+      ],
+      "latihan_awal": [
+        {"nama": "Push Up", "set": 3, "repetisi": "10"},
+        {"nama": "Squat", "set": 3, "repetisi": "10"},
+        {"nama": "Plank", "set": 3, "repetisi": "20 detik"},
+        {"nama": "Jumping Jacks", "set": 1, "repetisi": "30"},
+        {"nama": "Lunges", "set": 3, "repetisi": "8 per kaki"}
+      ]
+    },
+    {
+      "id": 12,
+      "kategori": "set_rep",
+      "keywords": ["set", "repetisi", "rep", "reps", "berapa", "jumlah", "volume"],
+      "penjelasan": "Panduan jumlah set dan repetisi sesuai tujuan latihan.",
+      "panduan": [
+        { "tujuan": "Kekuatan (Strength)", "set": "4-6", "repetisi": "1-5", "istirahat": "3-5 menit", "catatan": "Beban sangat berat (85-100% 1RM)" },
+        { "tujuan": "Hipertrofi / Massa Otot", "set": "3-5", "repetisi": "6-12", "istirahat": "60-90 detik", "catatan": "Beban sedang-berat (65-85% 1RM)" },
+        { "tujuan": "Endurance / Daya Tahan", "set": "2-3", "repetisi": "15-20+", "istirahat": "30-60 detik", "catatan": "Beban ringan (40-60% 1RM)" }
+      ]
+    },
+    {
+      "id": 13,
+      "kategori": "nutrisi",
+      "keywords": ["nutrisi", "makan", "makanan", "kalori", "protein", "karbo", "karbohidrat", "lemak", "gizi", "tdee", "makan apa", "asupan", "diet sehat"],
+      "penjelasan": "Nutrisi adalah fondasi dari semua hasil latihan. Tanpa asupan yang tepat, latihan keras tidak akan membuahkan hasil maksimal.",
+      "panduan": [
+        "Protein: 1.6–2.2 g per kg berat badan — untuk membangun otot (ayam, telur, tahu, tempe, ikan)",
+        "Karbohidrat: 3–5 g per kg berat badan — sumber energi utama latihan (nasi, oat, kentang, roti gandum)",
+        "Lemak sehat: 0.8–1 g per kg — untuk hormon & pemulihan (alpukat, kacang-kacangan, minyak zaitun)",
+        "TDEE = BMR x faktor aktivitas — ini kebutuhan kalori harianmu",
+        "Bulking = TDEE + 300-500 kkal | Cutting = TDEE - 300-500 kkal",
+        "Makan 3-5 kali sehari dengan porsi teratur lebih baik dari 1-2 kali besar",
+        "Pre-workout: karbohidrat kompleks 1-2 jam sebelum latihan (nasi + ayam)",
+        "Post-workout: protein + karbo dalam 30-60 menit setelah latihan untuk recovery",
+        "Minum 2-3 liter air per hari, tambah 500ml per jam latihan intens"
+      ],
+      "contoh_menu": [
+        {"waktu": "Sarapan", "contoh": "3 butir telur + oatmeal + pisang"},
+        {"waktu": "Makan Siang", "contoh": "Nasi + dada ayam + sayur + tempe"},
+        {"waktu": "Snack", "contoh": "Greek yogurt atau kacang almond"},
+        {"waktu": "Pre-Workout", "contoh": "Roti gandum + selai kacang"},
+        {"waktu": "Post-Workout", "contoh": "Whey protein shake + pisang"},
+        {"waktu": "Makan Malam", "contoh": "Nasi merah + ikan + brokoli"}
+      ]
+    },
+    {
+      "id": 14,
+      "kategori": "suplemen",
+      "keywords": ["suplemen", "supplement", "whey", "creatine", "kreatin", "bcaa", "protein shake", "pre workout", "preworkout", "vitamin", "omega"],
+      "penjelasan": "Suplemen adalah tambahan, bukan pengganti makanan. Fokus dulu pada nutrisi dari makanan nyata sebelum mempertimbangkan suplemen.",
+      "panduan": [
+        "Whey Protein — membantu memenuhi kebutuhan protein harian. Konsumsi setelah latihan.",
+        "Creatine Monohydrate — meningkatkan kekuatan dan massa otot. Dosis: 3-5 gram per hari.",
+        "BCAA — membantu recovery, berguna jika latihan saat puasa atau kalori rendah.",
+        "Pre-Workout — mengandung kafein untuk energi & fokus. Jangan konsumsi terlalu sore.",
+        "Omega-3 (Fish Oil) — mengurangi peradangan, baik untuk sendi dan jantung.",
+        "Vitamin D & Zinc — penting untuk produksi hormon dan imunitas.",
+        "Kreatin tidak perlu loading phase — 3-5g per hari konsisten sudah efektif.",
+        "Suplemen tidak akan bekerja jika latihan dan nutrisi dasar belum benar!"
+      ],
+      "prioritas": [
+        {"nama": "Creatine", "prioritas": "⭐⭐⭐⭐⭐", "catatan": "Paling cost-effective, bukti ilmiah kuat"},
+        {"nama": "Whey Protein", "prioritas": "⭐⭐⭐⭐⭐", "catatan": "Jika susah penuhi protein dari makanan"},
+        {"nama": "Omega-3", "prioritas": "⭐⭐⭐⭐", "catatan": "Bagus untuk kesehatan umum & sendi"},
+        {"nama": "Vitamin D", "prioritas": "⭐⭐⭐⭐", "catatan": "Penting untuk yang jarang di luar ruangan"},
+        {"nama": "BCAA", "prioritas": "⭐⭐⭐", "catatan": "Opsional jika sudah cukup protein"},
+        {"nama": "Pre-Workout", "prioritas": "⭐⭐⭐", "catatan": "Berguna tapi tidak wajib, awasi kafein"}
+      ]
+    },
+    {
+      "id": 15,
+      "kategori": "abs",
+      "keywords": ["abs", "perut", "sixpack", "six pack", "core", "plank", "sit up", "crunch", "otot perut"],
+      "latihan": [
+        { "nama": "Plank", "deskripsi": "Posisi menahan tubuh seperti push up bertumpu pada siku. Latihan inti terbaik untuk stabilitas core.", "target_otot": "Transverse Abdominis, Rectus Abdominis, Obliques", "set": 3, "repetisi": "30-60 detik", "level": "Pemula", "tips": "Jaga tubuh lurus dari kepala ke tumit, jangan angkat atau turunkan pinggul." },
+        { "nama": "Crunches", "deskripsi": "Latihan klasik perut dengan mengangkat bahu dari lantai.", "target_otot": "Rectus Abdominis (upper)", "set": 3, "repetisi": "20", "level": "Pemula", "tips": "Jangan tarik leher dengan tangan. Fokus pada kontraksi perut." },
+        { "nama": "Leg Raise", "deskripsi": "Berbaring, angkat kedua kaki lurus hingga 90 derajat lalu turunkan perlahan.", "target_otot": "Rectus Abdominis (lower), Hip Flexors", "set": 3, "repetisi": "15", "level": "Pemula", "tips": "Turunkan kaki perlahan untuk maksimalkan kontraksi. Punggung bawah tetap di lantai." },
+        { "nama": "Russian Twist", "deskripsi": "Duduk dengan kaki terangkat, putar tubuh bagian atas kiri-kanan sambil memegang beban.", "target_otot": "Obliques, Rectus Abdominis", "set": 3, "repetisi": "20 (10 per sisi)", "level": "Menengah", "tips": "Bisa pakai dumbbell atau medicine ball untuk tambah resistensi." },
+        { "nama": "Mountain Climber", "deskripsi": "Posisi push up, gerakkan lutut bergantian ke arah dada dengan cepat.", "target_otot": "Core, Hip Flexors, Shoulders", "set": 3, "repetisi": "30 detik", "level": "Menengah", "tips": "Jaga pinggul tetap level. Semakin cepat semakin banyak kalori terbakar." },
+        { "nama": "Bicycle Crunch", "deskripsi": "Crunch sambil mengayuh kaki seperti bersepeda, menyentuh siku ke lutut berlawanan.", "target_otot": "Rectus Abdominis, Obliques", "set": 3, "repetisi": "20 per sisi", "level": "Menengah", "tips": "Lakukan perlahan dan terkontrol, fokus pada rotasi torso." }
+      ]
+    },
+    {
+      "id": 16,
+      "kategori": "stretching",
+      "keywords": ["stretching", "stretch", "peregangan", "recovery", "pemulihan", "setelah latihan", "cool down", "cooldown", "nyeri otot", "pegal", "doms", "istirahat aktif"],
+      "penjelasan": "Stretching dan recovery sama pentingnya dengan latihan. Otot tumbuh saat istirahat, bukan saat latihan.",
+      "latihan": [
+        { "nama": "Hamstring Stretch", "deskripsi": "Duduk dengan kaki lurus ke depan, raih jari kaki untuk meregangkan paha belakang.", "target_otot": "Hamstrings, Lower Back", "set": 1, "repetisi": "30 detik per sisi", "level": "Pemula", "tips": "Jangan memantul saat stretching. Tahan perlahan dan rasakan regangan." },
+        { "nama": "Hip Flexor Stretch", "deskripsi": "Posisi lunges rendah, turunkan pinggul ke depan-bawah.", "target_otot": "Hip Flexors, Quadriceps", "set": 1, "repetisi": "30 detik per sisi", "level": "Pemula", "tips": "Sangat penting untuk yang sering duduk lama. Lakukan setiap hari." },
+        { "nama": "Child's Pose", "deskripsi": "Posisi yoga merentangkan lengan ke depan sambil duduk ke arah tumit.", "target_otot": "Lower Back, Lats, Glutes", "set": 1, "repetisi": "60 detik", "level": "Pemula", "tips": "Napas dalam-dalam saat menahan posisi. Sangat baik untuk dekompresi punggung." },
+        { "nama": "Chest & Shoulder Stretch", "deskripsi": "Kaitkan tangan di belakang punggung, angkat perlahan sambil membuka dada.", "target_otot": "Pectoralis, Anterior Deltoid, Bicep", "set": 1, "repetisi": "30 detik", "level": "Pemula", "tips": "Jaga punggung tegak. Rasakan regangan di seluruh bagian depan tubuh." }
+      ],
+      "tips_recovery": [
+        "Tidur 7-9 jam adalah recovery terbaik yang bisa kamu lakukan",
+        "DOMS (nyeri otot 24-48 jam setelah latihan) adalah normal, bukan tanda cedera",
+        "Active recovery: jalan kaki ringan atau yoga di hari istirahat",
+        "Foam rolling membantu mengurangi ketegangan otot",
+        "Hidrasi yang cukup mempercepat recovery secara signifikan"
+      ]
+    },
+    {
+      "id": 17,
+      "kategori": "rumah",
+      "keywords": ["rumah", "home", "tanpa alat", "tanpa gym", "bodyweight", "workout rumah", "di rumah", "tidak ada gym", "modal sendiri"],
+      "penjelasan": "Latihan di rumah tanpa alat bisa sama efektifnya dengan gym jika dilakukan dengan benar dan konsisten.",
+      "latihan": [
+        { "nama": "Push Up Variasi", "deskripsi": "Push up biasa, wide grip, diamond, dan decline untuk menarget dada dari berbagai sudut.", "target_otot": "Dada, Bahu, Trisep", "set": 4, "repetisi": "10-20", "level": "Pemula", "tips": "Variasikan pegangan tangan untuk menarget otot yang berbeda." },
+        { "nama": "Bodyweight Squat", "deskripsi": "Squat tanpa beban. Bisa ditingkatkan ke jump squat atau pistol squat.", "target_otot": "Quadriceps, Glutes, Hamstrings", "set": 4, "repetisi": "20", "level": "Pemula", "tips": "Coba single leg squat (pistol squat) untuk tantangan lebih besar." },
+        { "nama": "Pull Up (Bar Pintu)", "deskripsi": "Gunakan doorframe pull up bar untuk latihan tarikan punggung di rumah.", "target_otot": "Latissimus Dorsi, Bicep", "set": 3, "repetisi": "5-10", "level": "Menengah", "tips": "Pull up bar door bisa dibeli murah di marketplace. Sangat worth it!" },
+        { "nama": "Tricep Dips (Kursi)", "deskripsi": "Gunakan dua kursi kokoh atau tepi meja untuk melakukan dips.", "target_otot": "Triceps, Bahu, Dada", "set": 3, "repetisi": "10-15", "level": "Pemula", "tips": "Pastikan kursi tidak bergeser saat melakukan." },
+        { "nama": "Pike Push Up", "deskripsi": "Posisi push up dengan pinggul tinggi membentuk V terbalik, turunkan kepala ke lantai.", "target_otot": "Bahu (Deltoid), Trisep", "set": 3, "repetisi": "10-12", "level": "Menengah", "tips": "Latihan bahu terbaik tanpa alat. Progresikan ke handstand push up." },
+        { "nama": "Glute Bridge", "deskripsi": "Berbaring, angkat pinggul dengan mendorong tumit ke lantai.", "target_otot": "Glutes, Hamstrings, Core", "set": 3, "repetisi": "20", "level": "Pemula", "tips": "Kontraksikan glutes sekuat mungkin di atas. Bisa ditingkatkan dengan single leg." }
+      ],
+      "program_rumah": {
+        "nama": "Program Home Workout 4 Hari",
+        "jadwal": [
+          {"hari": "Senin", "fokus": "Upper Body Push", "latihan": ["Push Up 4x15", "Pike Push Up 3x10", "Tricep Dips 3x12", "Diamond Push Up 3x10"]},
+          {"hari": "Selasa", "fokus": "Lower Body", "latihan": ["Squat 4x20", "Lunges 3x12", "Glute Bridge 3x20", "Calf Raise 3x25"]},
+          {"hari": "Kamis", "fokus": "Upper Body Pull + Core", "latihan": ["Pull Up 3x8", "Plank 3x45 detik", "Leg Raise 3x15", "Mountain Climber 3x30 detik"]},
+          {"hari": "Sabtu", "fokus": "Full Body HIIT", "latihan": ["Burpees 3x10", "Jump Squat 3x15", "Push Up 3x15", "High Knees 3x30 detik"]}
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "kategori": "program_lanjutan",
+      "keywords": ["ppl", "push pull legs", "5x5", "stronglifts", "arnold split", "upper lower", "program lanjutan", "intermediate", "split", "program menengah", "bro split"],
+      "penjelasan": "Program latihan lanjutan untuk yang sudah melewati fase pemula (3-6 bulan latihan konsisten).",
+      "program_list": [
+        {
+          "nama": "PPL (Push Pull Legs)",
+          "level": "Menengah",
+          "frekuensi": "6 hari/minggu",
+          "deskripsi": "Membagi latihan menjadi Push (dada/bahu/trisep), Pull (punggung/bisep), dan Legs (kaki). Tiap otot dilatih 2x seminggu.",
+          "jadwal": [
+            {"hari": "Senin", "fokus": "Push — Bench Press, OHP, Lateral Raise, Tricep"},
+            {"hari": "Selasa", "fokus": "Pull — Deadlift, Row, Lat Pulldown, Bicep Curl"},
+            {"hari": "Rabu", "fokus": "Legs — Squat, Leg Press, Lunges, Calf Raise"},
+            {"hari": "Kamis-Sabtu", "fokus": "Ulangi Push, Pull, Legs dengan variasi berbeda"}
+          ],
+          "cocok_untuk": "Yang ingin volume tinggi dan frekuensi 6 hari per minggu"
+        },
+        {
+          "nama": "StrongLifts 5x5",
+          "level": "Menengah",
+          "frekuensi": "3 hari/minggu",
+          "deskripsi": "Program kekuatan sederhana dengan 2 sesi (A dan B) bergantian, fokus pada 5 gerakan compound.",
+          "jadwal": [
+            {"hari": "Sesi A", "fokus": "Squat 5x5, Bench Press 5x5, Barbell Row 5x5"},
+            {"hari": "Sesi B", "fokus": "Squat 5x5, Overhead Press 5x5, Deadlift 1x5"}
+          ],
+          "cocok_untuk": "Yang ingin fokus membangun kekuatan dasar dengan compound movement"
+        },
+        {
+          "nama": "Upper / Lower Split",
+          "level": "Menengah",
+          "frekuensi": "4 hari/minggu",
+          "deskripsi": "Membagi latihan menjadi Upper Body (Senin/Kamis) dan Lower Body (Selasa/Jumat).",
+          "jadwal": [
+            {"hari": "Senin", "fokus": "Upper — Bench, Row, OHP, Curl, Tricep"},
+            {"hari": "Selasa", "fokus": "Lower — Squat, Romanian Deadlift, Leg Press, Calf"},
+            {"hari": "Kamis", "fokus": "Upper — Incline Bench, Pull Up, Arnold Press"},
+            {"hari": "Jumat", "fokus": "Lower — Deadlift, Lunges, Leg Curl, Calf"}
+          ],
+          "cocok_untuk": "Intermediate yang ingin frekuensi latihan 4 hari per minggu"
+        },
+        {
+          "nama": "Bro Split (5 Hari)",
+          "level": "Menengah-Lanjutan",
+          "frekuensi": "5 hari/minggu",
+          "deskripsi": "Setiap hari fokus pada satu kelompok otot besar.",
+          "jadwal": [
+            {"hari": "Senin", "fokus": "Dada — Bench Press, Fly, Push Up"},
+            {"hari": "Selasa", "fokus": "Punggung — Deadlift, Pull Up, Row"},
+            {"hari": "Rabu", "fokus": "Bahu — OHP, Lateral Raise, Front Raise"},
+            {"hari": "Kamis", "fokus": "Lengan — Bicep + Tricep semua variasi"},
+            {"hari": "Jumat", "fokus": "Kaki — Squat, Leg Press, Lunges, Calf"}
+          ],
+          "cocok_untuk": "Yang ingin fokus membangun ukuran otot tiap bagian secara spesifik"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kategori": "cedera",
+      "keywords": ["cedera", "injury", "sakit", "nyeri", "keseleo", "terkilir", "lutut sakit", "punggung sakit", "bahu sakit", "pencegahan cedera", "overtraining", "aman"],
+      "penjelasan": "Cedera adalah musuh terbesar progress gym. Mencegah jauh lebih baik daripada mengobati.",
+      "panduan_pencegahan": [
+        "Selalu lakukan pemanasan 10-15 menit sebelum latihan berat",
+        "Prioritaskan teknik yang benar daripada beban yang berat",
+        "Naikkan beban secara bertahap — maksimal 5-10% per minggu",
+        "Jangan skip rest day — otot butuh waktu untuk pulih",
+        "Dengarkan tubuhmu: nyeri tajam = berhenti, nyeri tumpul otot = normal (DOMS)",
+        "Tidur cukup — kurang tidur meningkatkan risiko cedera secara signifikan",
+        "Jaga hidrasi — otot dan sendi yang dehidrasi lebih rentan cedera"
+      ],
+      "jenis_cedera_umum": [
+        { "nama": "DOMS (Nyeri Otot Pasca Latihan)", "deskripsi": "Nyeri otot 24-72 jam setelah latihan. Ini NORMAL dan bukan cedera.", "penanganan": "Istirahat, stretching ringan, tetap aktif dengan jalan kaki. Akan hilang sendiri 3-5 hari." },
+        { "nama": "Sprain / Keseleo", "deskripsi": "Ligamen tertarik atau robek akibat gerakan tiba-tiba atau posisi yang salah.", "penanganan": "RICE: Rest, Ice (es 20 menit/jam), Compression, Elevation. Konsultasi dokter jika parah." },
+        { "nama": "Nyeri Punggung Bawah", "deskripsi": "Sering terjadi akibat teknik deadlift/squat yang salah.", "penanganan": "Hentikan latihan berat, perkuat core, stretching hip flexor. Konsultasi fisioterapis jika berlanjut." },
+        { "nama": "Nyeri Lutut", "deskripsi": "Bisa akibat teknik squat yang salah (lutut ke dalam) atau beban terlalu berat.", "penanganan": "Kurangi beban, perbaiki teknik squat, perkuat otot sekitar lutut." },
+        { "nama": "Overtraining", "deskripsi": "Latihan terlalu sering tanpa recovery cukup — performa menurun, mudah sakit.", "penanganan": "Ambil deload week (beban 50%), prioritaskan tidur dan nutrisi, kurangi frekuensi." }
+      ]
+    }
+  ]
+}
